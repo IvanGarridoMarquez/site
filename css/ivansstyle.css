@@ -1,0 +1,164 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size:0.8em;
+	margin:0;
+	padding:7px;
+	background-color: #47372B
+}
+
+header{
+	background-color: #73AD21;
+	padding-left:11px;
+	background:url("../image/green-background3.jpg");
+}
+
+
+a{
+	color: #EA6616;
+	text-decoration: none;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-shadow:
+   -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+     1px 1px 0 #000000;
+}
+
+h2,h3{
+	color: #009999;
+}
+#contact{color: #009999;}
+
+nav ul {
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	display:inline-block; 
+	margin:5px;
+}
+
+.lanli{
+	float:right;
+	z-index: 1
+}
+
+a.fa:link, a.fa:visited {
+    background-color: #009999;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a.fa:hover, a.fa:active {
+    background-color: #33cccc;
+}
+
+
+div{
+	position: relative;
+	margin:11px;
+	padding:11px;
+	border: 3px solid #73AD21;
+	background-color: #FFFFFF;
+}
+
+.me {
+	float: left;
+	margin: 10px;
+  	text-align: center;
+}
+
+.qrcode {
+	float: right;
+	margin: 10px;
+  	text-align: center;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 47px;
+    display: block;
+}
+
+#facebook {
+    left: 0px;
+    width: 47px;
+    background: url('../image/social_icons_ani.gif') 0 0;
+}
+
+#facebook a:hover {
+    background: url('../image/social_icons_ani.gif') 0 -50px;
+}
+
+#linkedin {
+    left: 57px;
+    width: 47px;
+    background: url('../image/social_icons_ani.gif') -123px 0;
+}
+
+#linkedin a:hover {
+    background: url('../image/social_icons_ani.gif') -123px -50px;
+}
+
+#googleplus {
+    left: 114px;
+    width: 47px;
+    background: url('../image/social_icons_ani.gif') -186px 0;
+}
+
+#googleplus a:hover {
+    background: url('../image/social_icons_ani.gif') -186px -50px;
+}
+
+#twitter {
+    left: 171px;
+    width: 47px;
+    background: url('../image/social_icons_ani.gif') -63px 0;
+}
+
+#twitter a:hover {
+    background: url('../image/social_icons_ani.gif') -63px -50px;
+}
+
+.main {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    padding: 0px;
+}
+.main div {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */    
+    flex: 1;
+    padding-right:11px;
+    margin:0px;
+}
+
+.inmain{
+	position: relative;
+	background-color: #FFFFFF;
+	border:0px;
+}
+.inmain2{
+	position: relative;
+	background-color: #FFFFFF;
+	border:0px;
+	text-align: center;
+}
